@@ -10,16 +10,16 @@ app.get('/', function (req, res) {
 });
 
 app.get('/ariticle-one', function(req, res) {
-     res.send('Article one requested and will be served here');    
+     res.send('Avinash artical one requested and will be served here');    
 });
 app.get('/ariticle-two', function(req, res) {
-     res.send('Article two requested and will be served here');    
+     res.send('Avinsh Article two requested and will be served here');    
 });
 app.get('/ariticle-three', function(req, res) {
-     res.send('Article three requested and will be served here');    
+     res.send('Avinash Article three requested and will be served here');    
 });
-app.get('/ariticle-one', function(req, res) {
-     res.send('Article one requested and will be served here');    
+app.get('/ariticle-fore', function(req, res) {
+     res.send('Avinash Article fore requested and will be served here');    
 });
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
