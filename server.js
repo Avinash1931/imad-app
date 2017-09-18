@@ -6,7 +6,8 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleOne = {
+var articles= {
+articleOne = {
   title: 'Article One | Avi Ash',
   heading: 'Article One',
   date: 'May 19 2017',
@@ -20,8 +21,26 @@ var articleOne = {
                 <p>
 this is my content for my friest Avinash Article. this is my content for my friest Avinash Article. this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.
  </p>`
-  
+},
+articleTwo = {title: 'Avinash Two | Avi Ash',
+  heading: 'Avinash Two',
+  date: 'May 19 2017',
+  content: ` 
+  <p>
+                
+Name Avinash generally means Indestructible or Immortal or Unconquerable, is of Indian origin, Name Avinash is a Masculine (or Boy) name. Person with name Avinash are mainly Hindu by religion. Name Avinash belongs to rashi Mesh (Aries) with dominant planet Mars (Mangal) and Nakshatra (stars) Krithika.
+            </p>
+            <p>
+                Find qualities of  Aries (Mesh) or Find  Numerology,  Lucky number, lucky days, lucky color,  Auspicious stones  for Avinash or Find Chinese zodiac sign or Birthstone for your birthday or Find compatibility of Mesh (Aries) with other zodiac signs.
+            </p>
+            <p>
+                Powerful and complete. You are good intellectually and require several outlets for your energies. You are not a builder but a planner, and you want others to carry out your plans.You are bold, independent, inquisitive and interested in research. You know what you want and why you want it.
+            </p>
+},
+articleThee = {}
+articleFour = {},
 };
+
 function createTemplate (data) {
     var title = data.title;
     var date = data.date;
