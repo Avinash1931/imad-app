@@ -25,7 +25,7 @@ this is my content for my friest Avinash Article. this is my content for my frie
 function createTemplate (data) {
     var title = data.title;
     var date = data.date;
-    var heading = dts.heading;
+    var heading = data.heading;
     var content= data.content;
     
 var htmlTemplate = `
