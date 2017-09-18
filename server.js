@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 var articles = {
- `article-one` : {
+ `article-one`: {
   title: 'Article One | Avi Ash',
   heading: 'Article One',
   date: 'May 19 2017',
@@ -37,7 +37,7 @@ Name Avinash generally means Indestructible or Immortal or Unconquerable, is of 
                 Powerful and complete. You are good intellectually and require several outlets for your energies. You are not a builder but a planner, and you want others to carry out your plans.You are bold, independent, inquisitive and interested in research. You know what you want and why you want it.
             </p>`
 },
- `article-T=three` : {
+ `article-three` : {
     title: 'Avinash Three | Avi Ash',
   heading: 'Avinash Three',
   date: 'May 19 2017',
@@ -52,7 +52,7 @@ Name Avinash generally means Indestructible or Immortal or Unconquerable, is of 
                 Number 11 may manifest in a person as a tendency to be idealistic, fanatical, lacking practical realities, to use their divine gift for self-purposes. If a person does not realize his or her abilities.
             </p>`
 },
- `article-rour` : {
+ `article-four` : {
        title: 'Avinash Four | Avi Ash',
   heading: 'Avinash Four',
   date: 'May 19 2017',
