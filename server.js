@@ -58,17 +58,7 @@ Name Avinash generally means Indestructible or Immortal or Unconquerable, is of 
   date: 'May 19 2017',
   content: `
   <p>
-                Meaning of the name Avinash (अविनाश)	: ‘Indestructible’.
-            </p>
-            <p>
-                 अविनाश की राशि / Avinash Name Rashi	:मेष(Aries).
-            </p>
-            <p>
-				      नामांक / Name Numerology	:4.
-            </p>
-			<P>
-			      शुभ रुद्राक्ष / Lucky Rudrakash	: तीन मुखी
-			</P>`
+                Meaning of the name Avinash </P>`
 },
 };
 
