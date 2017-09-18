@@ -22,7 +22,7 @@ this is my content for my friest Avinash Article. this is my content for my frie
  </p>`
   
 };
-function createTempleate (Data) {
+function createTempleate (data) {
     var title = data.title;
     var date = data.date;
     var heading = dts.heading;
@@ -63,7 +63,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function(req, res) {
-     res.send(createTemplate(avinashOne));    
+     res.send(createTemplate(articleOne));    
 });
 app.get('/article-two', function(req, res) {
      res.sendFile(path.join(__dirname, 'ui','article-two.html'));   
