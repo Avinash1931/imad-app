@@ -6,8 +6,8 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articles= {
-articleOne = {
+var articles = {
+ `article-one` : {
   title: 'Article One | Avi Ash',
   heading: 'Article One',
   date: 'May 19 2017',
@@ -22,12 +22,12 @@ articleOne = {
 this is my content for my friest Avinash Article. this is my content for my friest Avinash Article. this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.
  </p>`
 },
-articleTwo = {title: 'Avinash Two | Avi Ash',
+ `article-two` : {
+    title: 'Avinash Two | Avi Ash',
   heading: 'Avinash Two',
   date: 'May 19 2017',
-  content: ` 
+  content: `
   <p>
-                
 Name Avinash generally means Indestructible or Immortal or Unconquerable, is of Indian origin, Name Avinash is a Masculine (or Boy) name. Person with name Avinash are mainly Hindu by religion. Name Avinash belongs to rashi Mesh (Aries) with dominant planet Mars (Mangal) and Nakshatra (stars) Krithika.
             </p>
             <p>
@@ -35,10 +35,41 @@ Name Avinash generally means Indestructible or Immortal or Unconquerable, is of 
             </p>
             <p>
                 Powerful and complete. You are good intellectually and require several outlets for your energies. You are not a builder but a planner, and you want others to carry out your plans.You are bold, independent, inquisitive and interested in research. You know what you want and why you want it.
-            </p>
+            </p>`
 },
-articleThee = {}
-articleFour = {},
+ `article-T=three` : {
+    title: 'Avinash Three | Avi Ash',
+  heading: 'Avinash Three',
+  date: 'May 19 2017',
+  content: `
+   <p>
+                You are always looking for an opportunity to achieve financial and emotional security. You are basically peacemaker. You understand the law of harmony and desire to balance your life with those around you.
+            </p>
+            <p>
+                You may feel incomplete without someone to share your love, ideals, wealth or work. You can be very sensitive and could appear a bit shy and perceptive. You have developed intuition, patience and the ability to nurture others.
+            </p>
+            <p>
+                Number 11 may manifest in a person as a tendency to be idealistic, fanatical, lacking practical realities, to use their divine gift for self-purposes. If a person does not realize his or her abilities.
+            </p>`
+},
+ `article-rour` : {
+       title: 'Avinash Four | Avi Ash',
+  heading: 'Avinash Four',
+  date: 'May 19 2017',
+  content: `
+  <p>
+                Meaning of the name Avinash (अविनाश)	: ‘Indestructible’.
+            </p>
+            <p>
+                 अविनाश की राशि / Avinash Name Rashi	:मेष(Aries).
+            </p>
+            <p>
+				      नामांक / Name Numerology	:4.
+            </p>
+			<P>
+			      शुभ रुद्राक्ष / Lucky Rudrakash	: तीन मुखी
+			</P>`
+},
 };
 
 function createTemplate (data) {
@@ -81,18 +112,12 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one', function(req, res) {
-     res.send(createTemplate(articleOne));    
+app.get('/:articlename', function(req, res) {
+     //articleName =article-one
+     //article[articlename] = {} content object for article one
+     res.send(createTemplate(articles[articleName]));
 });
-app.get('/article-two', function(req, res) {
-     res.sendFile(path.join(__dirname, 'ui','article-two.html'));   
-});
-app.get('/article-three', function(req, res) {
-    res.sendFile(path.join(__dirname, 'ui','article-three.html'));    
-});
-app.get('/article-four', function(req, res) {
-     res.sendFile(path.join(__dirname, 'ui','article-four.html'));   
-});
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
