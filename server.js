@@ -53,6 +53,7 @@ var htmlTemplate = `
                ${content}
             </div>
         </div>
+        </body>
     </html>
    `;
    return htmlTemplate;
