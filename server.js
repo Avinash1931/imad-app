@@ -58,7 +58,9 @@ Name Avinash generally means Indestructible or Immortal or Unconquerable, is of 
   date: 'May 19 2017',
   content: `
   <p>
-                Meaning of the name Avinash </P>`
+                Meaning of the name Avinash </P>
+                <p>
+                According to Hindu religion numerology represent many aspects of one life. You can predict personality by number itself or a combination of related numbers or you can measure an entity. Even more, you can make some predictions about an individual, house or a company</P>`
 },
 };
 
