@@ -13,7 +13,7 @@ var articles = {
   date: 'May 19 2017',
   content: ` 
   <p>
- this is my content for my friest Avinash Article. this is my content for my friest Avinash Article. this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.
+ this is my content for my first Avinash Article. this is my content for my friest Avinash Article. this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.
 </p>
     <p>
  this is my content for my friest Avinash Article. this is my content for my friest Avinash Article. this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.this is my content for my friest Avinash Article.
