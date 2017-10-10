@@ -20,5 +20,5 @@ button.onclick = function () {
     };
     //Make te request
     request.open('GET', 'http://avinashchinku19.imad.hasura-app.io/counter',true);
-    request.send(null);
+    request.send(null); 
 };
