@@ -11,7 +11,7 @@ button.onclick = function () {
         if (request.readystate === XMLHttpRequest.DONE) {
             // Take some action
             if (request.status ===200) {
-                var counter =request.responseText;
+                var counter = request.responseText;
                 var span = document.getElementById('count');
                  span.innerHTML = counter.toString();
             }
@@ -19,6 +19,6 @@ button.onclick = function () {
         // Not done yet 
     };
     //Make te request
-    request.open('GE', 'http://http://avinashchinku19.imad.hasura-app.io',true);
+    request.open('GET', 'http://http://avinashchinku19.imad.hasura-app.io',true);
     request.send(null);
 };
